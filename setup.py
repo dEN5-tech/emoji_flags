@@ -9,14 +9,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-  name = 'emojiflags',
-  packages = ['emojiflags'],
-  version = '0.1.0',
+  name = 'emoji_flags',
+  packages = ['emoji_flags'],
+  version = '0.2.0',
   description = 'Python Package for Country Flag Emojis.',
-  author = 'Jonathan Kosgei',
-  author_email = 'jonathan@ipdata.co',
-  url = 'https://github.com/jonathan-kosgei/emoji-flags',
-  download_url = 'https://github.com/jonathan-kosgei/emoji-flags/archive/0.1.0.tar.gz',
+  author = 'Denis Kartashov',
+  author_email = 'None',
+  url = 'https://github.com/dEN5-tech/emoji_flags/',
+  download_url = 'https://github.com/dEN5-tech/emoji_flags/archive/refs/tags/0.1.1.tar.gz',
   keywords = ['geolocation', 'flags', 'emoji'],
   long_description=read('README'),
   classifiers = [],
